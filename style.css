@@ -12,14 +12,10 @@ body {
 }
 
 .gradient {
-    /*Тут высота блока*/
     width: 100%;
-    /*Тут ширина*/
     height: 100vh;
     background: linear-gradient(149deg, rgba(24, 187, 156, 1) 0%, rgb(85, 57, 175) 42%, rgba(187, 24, 148, 1) 72%, rgba(115, 53, 134, 1) 100%);
-    /*10s - скорость анимации*/
     animation: gradient 10s infinite linear;
-    /* Можно менять и подбирать интенсивность */
     background-size: 400%;
 }
 
@@ -38,6 +34,6 @@ body {
 }
 
 input {
-    width: 100%;
+    width: 50%;
     height: 50px;
 }
